@@ -1,0 +1,10 @@
+language: "en-US"
+reviews:
+  profile: "chill"
+  request_changes_workflow: false
+  path_filters:
+    - "!node_modules/**"
+    - "!package-lock.json"
+    - "!.next/**"
+    - "!target/**"
+    - "!.idea/**"
