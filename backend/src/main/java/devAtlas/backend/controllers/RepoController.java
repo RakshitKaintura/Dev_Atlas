@@ -37,7 +37,7 @@ public class RepoController {
 
     @GetMapping
     public List<RepositoryResponse> list(
-            @RequestParam(name = "refresh", defaultValue = "true") boolean refresh) {
+            @RequestParam(name = "refresh", defaultValue = "false") boolean refresh) {
         UUID userId = currentUser.require().getId();
         if (refresh) {
             return repoService.syncAndListRepos(userId);
