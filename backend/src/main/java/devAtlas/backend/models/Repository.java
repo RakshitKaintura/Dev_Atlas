@@ -100,6 +100,12 @@ public class Repository {
     @Column(name = "working_flow_diagram", columnDefinition = "TEXT")
     private String workingFlowDiagram;
 
+    @Column(name = "component_tree_diagram", columnDefinition = "TEXT")
+    private String componentTreeDiagram;
+
+    @Column(name = "api_endpoint_diagram", columnDefinition = "TEXT")
+    private String apiEndpointDiagram;
+
     @Column(name = "current_stage", length = 50)
     private String currentStage;
 
