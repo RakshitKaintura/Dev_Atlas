@@ -1,0 +1,44 @@
+{
+  "properties": [
+    {
+      "name": "app.frontend-url",
+      "type": "java.lang.String",
+      "description": "Frontend base URL used for redirects and cross-origin requests."
+    },
+    {
+      "name": "app.cors.allowed-origins",
+      "type": "java.lang.String",
+      "description": "Comma-separated list of origins allowed by CORS."
+    },
+    {
+      "name": "app.token-encryptor-password",
+      "type": "java.lang.String",
+      "description": "Password used to encrypt stored tokens."
+    },
+    {
+      "name": "app.token-encryptor-salt",
+      "type": "java.lang.String",
+      "description": "Salt used by the token encryptor."
+    },
+    {
+      "name": "app.indexing.max-file-bytes",
+      "type": "java.lang.Integer",
+      "description": "Maximum file size in bytes accepted for indexing."
+    },
+    {
+      "name": "app.indexing.chunk-size",
+      "type": "java.lang.Integer",
+      "description": "Number of tokens in each indexed chunk."
+    },
+    {
+      "name": "app.indexing.chunk-overlap",
+      "type": "java.lang.Integer",
+      "description": "Number of overlapping tokens between indexed chunks."
+    },
+    {
+      "name": "app.github.api-delay-ms",
+      "type": "java.lang.Long",
+      "description": "Delay between GitHub API requests in milliseconds."
+    }
+  ]
+}
