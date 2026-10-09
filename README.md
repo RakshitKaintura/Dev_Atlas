@@ -4,6 +4,8 @@
 
 **Intelligent Codebase Comprehension and Visualization Platform**
 
+🚀 **[Live Demo (Vercel)](https://dev-atlas-mauve.vercel.app)** | ⚙️ **[Backend API (Render)](https://dev-atlas-klbp.onrender.com)**
+
 [![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.2-brightgreen.svg?logo=springboot)](https://spring.io/projects/spring-boot)
 [![Next.js](https://img.shields.io/badge/Next.js-14-black.svg?logo=next.js)](https://nextjs.org/)
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-pgvector-blue.svg?logo=postgresql)](https://postgresql.org/)
@@ -12,6 +14,18 @@
 DevAtlas is a full-stack, AI-powered developer tool that transforms complex GitHub repositories into interactive, understandable assets. By combining **Retrieval-Augmented Generation (RAG)** with automated diagramming, DevAtlas allows developers to chat with their codebase and visually explore system architecture in real-time.
 
 </div>
+
+---
+
+## 📸 Screenshots
+
+| Welcome Page | Home Page |
+| :---: | :---: |
+| ![Welcome Page](frontend/public/readme_images/WelcomePage.png) | ![Home Page](frontend/public/readme_images/HomePage.png) |
+
+| Chat Interface | Visualization Page |
+| :---: | :---: |
+| ![Chat Interface](frontend/public/readme_images/ChatInterface.png) | ![Visualization Page](frontend/public/readme_images/VisualizationPage.png) |
 
 ---
 
